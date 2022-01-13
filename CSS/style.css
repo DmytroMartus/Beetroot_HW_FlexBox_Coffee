@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Dosis', sans-serif;
+    background-color: #fdde7e;
+    min-height: 100vh;
+}
+
+.card__wrapper {
+    width: 1140px;
+    height: 440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    width: 360px;
+    height: 440px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 3px 5px 0px #444;
+    transition: all 0.3s;
+}
+
+.card:hover {
+    height: 500px;
+}
+
+.card__price {
+    color: #02995b;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card__img {
+    height: 135px;
+    width: 135px;
+    margin: 0 auto;
+}
+
+.card__title {
+    font-size: 35px;
+    /* line-height: 35px; */
+    color: #333333;
+    text-align: center;
+}
+
+.card__subscribe {
+    width: 155px;
+    font-size: 15px;
+    color: #414141;
+    text-align: center;
+    margin-bottom: 30px;
+}
